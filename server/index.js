@@ -28,7 +28,7 @@ app.use('/api/application', applicationRoutes);
 
 
 app.get('/', (req, res) => {
-  res.send('API is running...');
+  res.send('API is running running ...');
 });
 
 app.listen(PORT, () => {
